@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* BudgetGuruTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BudgetGuruTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		350E8926271F2D51003EF06E /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350E891D271F2D3F003EF06E /* Lottie.framework */; };
+		350E8927271F2D51003EF06E /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 350E891D271F2D3F003EF06E /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		350E892E271F3B88003EF06E /* BudgetGuru.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E892D271F3B88003EF06E /* BudgetGuru.swift */; };
+		35EEF9962720230A00CE5FCC /* Montserrat-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35EEF9832720230800CE5FCC /* Montserrat-900.ttf */; };
+		35EEF9972720230B00CE5FCC /* Montserrat-600.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35EEF9892720230800CE5FCC /* Montserrat-600.ttf */; };
+		35EEF9982720230B00CE5FCC /* Proxima-500.otf in Resources */ = {isa = PBXBuildFile; fileRef = 35EEF98A2720230900CE5FCC /* Proxima-500.otf */; };
+		35EEF9992720230B00CE5FCC /* Montserrat-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35EEF98B2720230900CE5FCC /* Montserrat-400.ttf */; };
+		35EEF99A2720230B00CE5FCC /* Proxima-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 35EEF98C2720230900CE5FCC /* Proxima-400.otf */; };
+		35EEF99B2720230B00CE5FCC /* Montserrat-800.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35EEF98D2720230900CE5FCC /* Montserrat-800.ttf */; };
+		35EEF99C2720230B00CE5FCC /* Montserrat-100.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35EEF98E2720230900CE5FCC /* Montserrat-100.ttf */; };
+		35EEF99D2720230B00CE5FCC /* Proxima-800.otf in Resources */ = {isa = PBXBuildFile; fileRef = 35EEF98F2720230900CE5FCC /* Proxima-800.otf */; };
+		35EEF99E2720230B00CE5FCC /* Montserrat-700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35EEF9902720230A00CE5FCC /* Montserrat-700.ttf */; };
+		35EEF99F2720230B00CE5FCC /* Montserrat-500.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35EEF9912720230A00CE5FCC /* Montserrat-500.ttf */; };
+		35EEF9A02720230B00CE5FCC /* Montserrat-300.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35EEF9922720230A00CE5FCC /* Montserrat-300.ttf */; };
+		35EEF9A12720230B00CE5FCC /* Proxima-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 35EEF9932720230A00CE5FCC /* Proxima-900.otf */; };
+		35EEF9A22720230B00CE5FCC /* Montserrat-200.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35EEF9942720230A00CE5FCC /* Montserrat-200.ttf */; };
+		35EEF9A32720230B00CE5FCC /* Proxima-700.otf in Resources */ = {isa = PBXBuildFile; fileRef = 35EEF9952720230A00CE5FCC /* Proxima-700.otf */; };
+		3A519F82A4C99FF5D419DC3D /* libPods-BudgetGuru-BudgetGuruTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C533B13DAE80800EA7A29A28 /* libPods-BudgetGuru-BudgetGuruTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		DABB14E354A7872F4009B4A5 /* libPods-BudgetGuru.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBE4A35908C95417AAA473C /* libPods-BudgetGuru.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = BudgetGuru;
+		};
+		350E891C271F2D3F003EF06E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 350E8914271F2D3F003EF06E /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 486E83B2220A317C007CD915;
+			remoteInfo = Lottie_iOS;
+		};
+		350E891E271F2D3F003EF06E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 350E8914271F2D3F003EF06E /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 486E84E2220A357D007CD915;
+			remoteInfo = Lottie_tvOS;
+		};
+		350E8920271F2D3F003EF06E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 350E8914271F2D3F003EF06E /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 486E8567220A3605007CD915;
+			remoteInfo = Lottie_macOS;
+		};
+		350E8922271F2D3F003EF06E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 350E8914271F2D3F003EF06E /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 486E85F3220A36F6007CD915;
+			remoteInfo = LottieLibraryIOS;
+		};
+		350E8924271F2D3F003EF06E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 350E8914271F2D3F003EF06E /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 486E8675220A3751007CD915;
+			remoteInfo = LottieLibraryMacOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		350E8928271F2D51003EF06E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				350E8927271F2D51003EF06E /* Lottie.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* BudgetGuruTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetGuruTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* BudgetGuruTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BudgetGuruTests.m; sourceTree = "<group>"; };
+		128C386EC6924DCA8DC8BEB5 /* ProximaThin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ProximaThin.otf; path = ../src/assets/fonts/ProximaThin.otf; sourceTree = "<group>"; };
+		134FFBB6AB98435781786A65 /* Proxima-800.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Proxima-800.otf"; path = "../src/assets/fonts/Proxima-800.otf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* BudgetGuru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetGuru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BudgetGuru/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BudgetGuru/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BudgetGuru/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BudgetGuru/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BudgetGuru/main.m; sourceTree = "<group>"; };
+		22E66263809B42468E6CD6AC /* Montserrat-200.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-200.ttf"; path = "../src/assets/fonts/Montserrat-200.ttf"; sourceTree = "<group>"; };
+		350E8914271F2D3F003EF06E /* Lottie.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lottie.xcodeproj; path = "lottie-ios-master/Lottie.xcodeproj"; sourceTree = "<group>"; };
+		350E892C271F3B87003EF06E /* BudgetGuru-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BudgetGuru-Bridging-Header.h"; sourceTree = "<group>"; };
+		350E892D271F3B88003EF06E /* BudgetGuru.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetGuru.swift; sourceTree = "<group>"; };
+		35EEF9832720230800CE5FCC /* Montserrat-900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-900.ttf"; path = "../assets/fonts/Montserrat-900.ttf"; sourceTree = "<group>"; };
+		35EEF9892720230800CE5FCC /* Montserrat-600.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-600.ttf"; path = "../assets/fonts/Montserrat-600.ttf"; sourceTree = "<group>"; };
+		35EEF98A2720230900CE5FCC /* Proxima-500.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Proxima-500.otf"; path = "../assets/fonts/Proxima-500.otf"; sourceTree = "<group>"; };
+		35EEF98B2720230900CE5FCC /* Montserrat-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-400.ttf"; path = "../assets/fonts/Montserrat-400.ttf"; sourceTree = "<group>"; };
+		35EEF98C2720230900CE5FCC /* Proxima-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Proxima-400.otf"; path = "../assets/fonts/Proxima-400.otf"; sourceTree = "<group>"; };
+		35EEF98D2720230900CE5FCC /* Montserrat-800.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-800.ttf"; path = "../assets/fonts/Montserrat-800.ttf"; sourceTree = "<group>"; };
+		35EEF98E2720230900CE5FCC /* Montserrat-100.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-100.ttf"; path = "../assets/fonts/Montserrat-100.ttf"; sourceTree = "<group>"; };
+		35EEF98F2720230900CE5FCC /* Proxima-800.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Proxima-800.otf"; path = "../assets/fonts/Proxima-800.otf"; sourceTree = "<group>"; };
+		35EEF9902720230A00CE5FCC /* Montserrat-700.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-700.ttf"; path = "../assets/fonts/Montserrat-700.ttf"; sourceTree = "<group>"; };
+		35EEF9912720230A00CE5FCC /* Montserrat-500.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-500.ttf"; path = "../assets/fonts/Montserrat-500.ttf"; sourceTree = "<group>"; };
+		35EEF9922720230A00CE5FCC /* Montserrat-300.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-300.ttf"; path = "../assets/fonts/Montserrat-300.ttf"; sourceTree = "<group>"; };
+		35EEF9932720230A00CE5FCC /* Proxima-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Proxima-900.otf"; path = "../assets/fonts/Proxima-900.otf"; sourceTree = "<group>"; };
+		35EEF9942720230A00CE5FCC /* Montserrat-200.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-200.ttf"; path = "../assets/fonts/Montserrat-200.ttf"; sourceTree = "<group>"; };
+		35EEF9952720230A00CE5FCC /* Proxima-700.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Proxima-700.otf"; path = "../assets/fonts/Proxima-700.otf"; sourceTree = "<group>"; };
+		3C35C6792D40C907C7BFA62E /* Pods-BudgetGuru-BudgetGuruTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetGuru-BudgetGuruTests.release.xcconfig"; path = "Target Support Files/Pods-BudgetGuru-BudgetGuruTests/Pods-BudgetGuru-BudgetGuruTests.release.xcconfig"; sourceTree = "<group>"; };
+		461F559ED9E84406913D59F3 /* Proxima-500.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Proxima-500.otf"; path = "../src/assets/fonts/Proxima-500.otf"; sourceTree = "<group>"; };
+		47462051143D4659B5EFC334 /* ProximaBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ProximaBold.otf; path = ../src/assets/fonts/ProximaBold.otf; sourceTree = "<group>"; };
+		54930E2E845C4C939B54ED51 /* Montserrat-600.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-600.ttf"; path = "../src/assets/fonts/Montserrat-600.ttf"; sourceTree = "<group>"; };
+		54E89341B4B8A8FE0CD14A2B /* Pods-BudgetGuru.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetGuru.release.xcconfig"; path = "Target Support Files/Pods-BudgetGuru/Pods-BudgetGuru.release.xcconfig"; sourceTree = "<group>"; };
+		567AFB339FE8407DA4E11E1D /* Montserrat-900.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-900.ttf"; path = "../src/assets/fonts/Montserrat-900.ttf"; sourceTree = "<group>"; };
+		6E287C7BB5EF4355876DB825 /* Montserrat-800.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-800.ttf"; path = "../src/assets/fonts/Montserrat-800.ttf"; sourceTree = "<group>"; };
+		72391FE7FCC7455D9421EA95 /* ProximaRegular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ProximaRegular.otf; path = ../src/assets/fonts/ProximaRegular.otf; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BudgetGuru/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8342422D2B4B458681E9AF67 /* Proxima-700.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Proxima-700.otf"; path = "../src/assets/fonts/Proxima-700.otf"; sourceTree = "<group>"; };
+		A93ED5FFFB264869AE45175B /* Montserrat-500.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-500.ttf"; path = "../src/assets/fonts/Montserrat-500.ttf"; sourceTree = "<group>"; };
+		AED3B093AEE44A759B60ED69 /* ProximaBlack.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ProximaBlack.otf; path = ../src/assets/fonts/ProximaBlack.otf; sourceTree = "<group>"; };
+		B6CFA240AADC475474E67263 /* Pods-BudgetGuru-BudgetGuruTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetGuru-BudgetGuruTests.debug.xcconfig"; path = "Target Support Files/Pods-BudgetGuru-BudgetGuruTests/Pods-BudgetGuru-BudgetGuruTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B91DEE8C716D437C9C8F70DC /* Montserrat-700.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-700.ttf"; path = "../src/assets/fonts/Montserrat-700.ttf"; sourceTree = "<group>"; };
+		BBC2CFC434EB708027B83059 /* Pods-BudgetGuru.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetGuru.debug.xcconfig"; path = "Target Support Files/Pods-BudgetGuru/Pods-BudgetGuru.debug.xcconfig"; sourceTree = "<group>"; };
+		BE101333EFF944F6B1A50C9E /* Proxima-400.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Proxima-400.otf"; path = "../src/assets/fonts/Proxima-400.otf"; sourceTree = "<group>"; };
+		C467D55AE5DD4BB9BD715C3A /* Montserrat-300.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-300.ttf"; path = "../src/assets/fonts/Montserrat-300.ttf"; sourceTree = "<group>"; };
+		C533B13DAE80800EA7A29A28 /* libPods-BudgetGuru-BudgetGuruTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BudgetGuru-BudgetGuruTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54E6A02DC174067ACD31E38 /* Montserrat-100.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-100.ttf"; path = "../src/assets/fonts/Montserrat-100.ttf"; sourceTree = "<group>"; };
+		DACD27CA447742AB93749F06 /* Proxima-900.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Proxima-900.otf"; path = "../src/assets/fonts/Proxima-900.otf"; sourceTree = "<group>"; };
+		E2CDF59142424863A0909DCB /* ProximaExtrabold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ProximaExtrabold.otf; path = ../src/assets/fonts/ProximaExtrabold.otf; sourceTree = "<group>"; };
+		E9570DC7566A4E998391C645 /* Montserrat-400.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-400.ttf"; path = "../src/assets/fonts/Montserrat-400.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FFBE4A35908C95417AAA473C /* libPods-BudgetGuru.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BudgetGuru.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A519F82A4C99FF5D419DC3D /* libPods-BudgetGuru-BudgetGuruTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABB14E354A7872F4009B4A5 /* libPods-BudgetGuru.a in Frameworks */,
+				350E8926271F2D51003EF06E /* Lottie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* BudgetGuruTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* BudgetGuruTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = BudgetGuruTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0218AC3B96526CA5144A1A6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBC2CFC434EB708027B83059 /* Pods-BudgetGuru.debug.xcconfig */,
+				54E89341B4B8A8FE0CD14A2B /* Pods-BudgetGuru.release.xcconfig */,
+				B6CFA240AADC475474E67263 /* Pods-BudgetGuru-BudgetGuruTests.debug.xcconfig */,
+				3C35C6792D40C907C7BFA62E /* Pods-BudgetGuru-BudgetGuruTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* BudgetGuru */ = {
+			isa = PBXGroup;
+			children = (
+				35EEF9A42720231700CE5FCC /* Fonts */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = BudgetGuru;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				350E8914271F2D3F003EF06E /* Lottie.xcodeproj */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				FFBE4A35908C95417AAA473C /* libPods-BudgetGuru.a */,
+				C533B13DAE80800EA7A29A28 /* libPods-BudgetGuru-BudgetGuruTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		350E8915271F2D3F003EF06E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				350E891D271F2D3F003EF06E /* Lottie.framework */,
+				350E891F271F2D3F003EF06E /* Lottie.framework */,
+				350E8921271F2D3F003EF06E /* Lottie.framework */,
+				350E8923271F2D3F003EF06E /* libLottie.a */,
+				350E8925271F2D3F003EF06E /* libLottie.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35EEF9A42720231700CE5FCC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				35EEF98E2720230900CE5FCC /* Montserrat-100.ttf */,
+				35EEF9942720230A00CE5FCC /* Montserrat-200.ttf */,
+				35EEF9922720230A00CE5FCC /* Montserrat-300.ttf */,
+				35EEF98B2720230900CE5FCC /* Montserrat-400.ttf */,
+				35EEF9912720230A00CE5FCC /* Montserrat-500.ttf */,
+				35EEF9892720230800CE5FCC /* Montserrat-600.ttf */,
+				35EEF9902720230A00CE5FCC /* Montserrat-700.ttf */,
+				35EEF98D2720230900CE5FCC /* Montserrat-800.ttf */,
+				35EEF9832720230800CE5FCC /* Montserrat-900.ttf */,
+				35EEF98C2720230900CE5FCC /* Proxima-400.otf */,
+				35EEF98A2720230900CE5FCC /* Proxima-500.otf */,
+				35EEF9952720230A00CE5FCC /* Proxima-700.otf */,
+				35EEF98F2720230900CE5FCC /* Proxima-800.otf */,
+				35EEF9932720230A00CE5FCC /* Proxima-900.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		3C01FBD2D25041B48EE0A790 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AED3B093AEE44A759B60ED69 /* ProximaBlack.otf */,
+				47462051143D4659B5EFC334 /* ProximaBold.otf */,
+				E2CDF59142424863A0909DCB /* ProximaExtrabold.otf */,
+				72391FE7FCC7455D9421EA95 /* ProximaRegular.otf */,
+				128C386EC6924DCA8DC8BEB5 /* ProximaThin.otf */,
+				C54E6A02DC174067ACD31E38 /* Montserrat-100.ttf */,
+				22E66263809B42468E6CD6AC /* Montserrat-200.ttf */,
+				C467D55AE5DD4BB9BD715C3A /* Montserrat-300.ttf */,
+				E9570DC7566A4E998391C645 /* Montserrat-400.ttf */,
+				A93ED5FFFB264869AE45175B /* Montserrat-500.ttf */,
+				54930E2E845C4C939B54ED51 /* Montserrat-600.ttf */,
+				B91DEE8C716D437C9C8F70DC /* Montserrat-700.ttf */,
+				6E287C7BB5EF4355876DB825 /* Montserrat-800.ttf */,
+				567AFB339FE8407DA4E11E1D /* Montserrat-900.ttf */,
+				BE101333EFF944F6B1A50C9E /* Proxima-400.otf */,
+				461F559ED9E84406913D59F3 /* Proxima-500.otf */,
+				8342422D2B4B458681E9AF67 /* Proxima-700.otf */,
+				134FFBB6AB98435781786A65 /* Proxima-800.otf */,
+				DACD27CA447742AB93749F06 /* Proxima-900.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				350E892D271F3B88003EF06E /* BudgetGuru.swift */,
+				13B07FAE1A68108700A75B9A /* BudgetGuru */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* BudgetGuruTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				3C01FBD2D25041B48EE0A790 /* Resources */,
+				0218AC3B96526CA5144A1A6F /* Pods */,
+				350E892C271F3B87003EF06E /* BudgetGuru-Bridging-Header.h */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* BudgetGuru.app */,
+				00E356EE1AD99517003FC87E /* BudgetGuruTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* BudgetGuruTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BudgetGuruTests" */;
+			buildPhases = (
+				D0C5DF7798D105B184576E36 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				CBC60F008A7A0F76117407BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = BudgetGuruTests;
+			productName = BudgetGuruTests;
+			productReference = 00E356EE1AD99517003FC87E /* BudgetGuruTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* BudgetGuru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BudgetGuru" */;
+			buildPhases = (
+				5B68D074B064EA86D482E2A2 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				A470FBB3DF04CCC23C681ED8 /* [CP] Copy Pods Resources */,
+				350E8928271F2D51003EF06E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BudgetGuru;
+			productName = BudgetGuru;
+			productReference = 13B07F961A680F5B00A75B9A /* BudgetGuru.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BudgetGuru" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 350E8915271F2D3F003EF06E /* Products */;
+					ProjectRef = 350E8914271F2D3F003EF06E /* Lottie.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* BudgetGuru */,
+				00E356ED1AD99517003FC87E /* BudgetGuruTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		350E891D271F2D3F003EF06E /* Lottie.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lottie.framework;
+			remoteRef = 350E891C271F2D3F003EF06E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		350E891F271F2D3F003EF06E /* Lottie.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lottie.framework;
+			remoteRef = 350E891E271F2D3F003EF06E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		350E8921271F2D3F003EF06E /* Lottie.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lottie.framework;
+			remoteRef = 350E8920271F2D3F003EF06E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		350E8923271F2D3F003EF06E /* libLottie.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLottie.a;
+			remoteRef = 350E8922271F2D3F003EF06E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		350E8925271F2D3F003EF06E /* libLottie.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLottie.a;
+			remoteRef = 350E8924271F2D3F003EF06E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35EEF9972720230B00CE5FCC /* Montserrat-600.ttf in Resources */,
+				35EEF99C2720230B00CE5FCC /* Montserrat-100.ttf in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				35EEF99B2720230B00CE5FCC /* Montserrat-800.ttf in Resources */,
+				35EEF9A22720230B00CE5FCC /* Montserrat-200.ttf in Resources */,
+				35EEF99A2720230B00CE5FCC /* Proxima-400.otf in Resources */,
+				35EEF99D2720230B00CE5FCC /* Proxima-800.otf in Resources */,
+				35EEF9962720230A00CE5FCC /* Montserrat-900.ttf in Resources */,
+				35EEF99F2720230B00CE5FCC /* Montserrat-500.ttf in Resources */,
+				35EEF9A12720230B00CE5FCC /* Proxima-900.otf in Resources */,
+				35EEF9A32720230B00CE5FCC /* Proxima-700.otf in Resources */,
+				35EEF9A02720230B00CE5FCC /* Montserrat-300.ttf in Resources */,
+				35EEF99E2720230B00CE5FCC /* Montserrat-700.ttf in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				35EEF9992720230B00CE5FCC /* Montserrat-400.ttf in Resources */,
+				35EEF9982720230B00CE5FCC /* Proxima-500.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		5B68D074B064EA86D482E2A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BudgetGuru-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A470FBB3DF04CCC23C681ED8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BudgetGuru/Pods-BudgetGuru-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BudgetGuru/Pods-BudgetGuru-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BudgetGuru/Pods-BudgetGuru-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBC60F008A7A0F76117407BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BudgetGuru-BudgetGuruTests/Pods-BudgetGuru-BudgetGuruTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BudgetGuru-BudgetGuruTests/Pods-BudgetGuru-BudgetGuruTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BudgetGuru-BudgetGuruTests/Pods-BudgetGuru-BudgetGuruTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0C5DF7798D105B184576E36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BudgetGuru-BudgetGuruTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* BudgetGuruTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				350E892E271F3B88003EF06E /* BudgetGuru.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* BudgetGuru */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6CFA240AADC475474E67263 /* Pods-BudgetGuru-BudgetGuruTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BudgetGuruTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BudgetGuru.app/BudgetGuru";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C35C6792D40C907C7BFA62E /* Pods-BudgetGuru-BudgetGuruTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = BudgetGuruTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BudgetGuru.app/BudgetGuru";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC2CFC434EB708027B83059 /* Pods-BudgetGuru.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = BudgetGuru/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = BudgetGuru;
+				SWIFT_OBJC_BRIDGING_HEADER = "BudgetGuru-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E89341B4B8A8FE0CD14A2B /* Pods-BudgetGuru.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = BudgetGuru/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = BudgetGuru;
+				SWIFT_OBJC_BRIDGING_HEADER = "BudgetGuru-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BudgetGuruTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BudgetGuru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BudgetGuru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
